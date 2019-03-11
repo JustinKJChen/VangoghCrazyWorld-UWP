@@ -1,5 +1,5 @@
 ## Quick Start
-Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.3/VangoghCrazyWorld_UWP_20190311.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
+Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.3/VangoghCrazyWorld_UWP_20190311_2.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
 
 ## Neural style transfer
 This UWP C# app uses the Neural style transfer model to re-style images or video streams. 
