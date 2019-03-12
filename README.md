@@ -32,6 +32,9 @@ Once you have open the project, you can easy build the code with
   2. Under Solutions Explorer/ Assets Folder add model file to project by selecting Add Existing Item.
   3. Change properties of model just added: "Build Action" -> "Content"
   4. Add the onnx model name in "_kModelFileNames" function
+  
+  <img src = 'Images/Assets.png' height = '309px'>
+  
   5. Build and run
   6. Click button to select image to enjoy the style!
 
