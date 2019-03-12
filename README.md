@@ -23,8 +23,8 @@ The only thing you need to do is press the "Setup.exe" and find the button to la
 
 ### 2.Run Samples
 Once you have open the project, you can easy build the code with 
-  1. Clean the project.
-  2. Build the project. 
+  1. Clean the project
+  2. Build the project 
   3. Enjoy the effect!
 
 ### 3.How to import your own ONNX model? 
