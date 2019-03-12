@@ -15,19 +15,29 @@ This UWP C# app uses the Neural style transfer model to re-style images or video
 
 For how-tos, tutorials and additional information, see the [Windows ML documentation](https://docs.microsoft.com/windows/ai/).
 
+## Getting Started
+### 1.Prerequisites
+The only thing you need to do is press the "Setup.exe" and find the button to launch the sample, the button will auto trigger VangoghCrazyWorld project via Visual studio
+
+<img src = 'Images/EnvChecker.png' height = '442px'>
+
+### 2.Run Samples
+Once you have open the project, you can easy build the code with 1.Clean the project 2. Build the project 3.Enjoy the effect!
+
+### 3.How to import your training ONNX model to this sample 
+  1. Once you have trained own style ONNX model via [here](https://github.com/AcerWilliamH/VangoghCrazyWorld), you can drop your ONNX model into "Asset" folder.
+  2. Under Solutions Explorer/ Assets Folder add model file to project by selecting Add Existing Item.
+  3. Change properties of model just added: "Build Action" -> "Content"
+  4. Add the onnx model name in "_kModelFileNames" function
+  5. Build and run
+  6. Click button to select image to enjoy the style!
+
+
 ## Requirements
 
 - [Visual Studio 2017 - 15.4 or higher](https://developer.microsoft.com/en-us/windows/downloads)
 - [Windows 10 - Build 17763 or higher](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso)
 - [Windows SDK - Build 17763 or higher](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
-
-## How to launch this sample?
-The only thing you need to do is press the "Setup.exe" and find the button to launch the sample, the button will auto trigger VangoghCrazyWorld project via Visual studio
-
-<img src = 'Images/EnvChecker.png' height = '442px'>
-
-
-## How to import your training ONNX model to this sample  
 
 
 ## Contributing
