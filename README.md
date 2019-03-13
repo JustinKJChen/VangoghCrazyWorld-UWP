@@ -1,5 +1,5 @@
 ## Quick Start
-Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.3/VangoghCrazyWorld_UWP_20190311_2.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
+Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.3/VangoghCrazyWorld_UWP_20190311_3.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
 
 Once you have downloaded the sample, you can find the "Setup.exe" in folder. The "Setup.exe" provided an easy-way that help you preparing your system to meet the minimum system requirements.
 
