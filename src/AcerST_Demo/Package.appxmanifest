@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="cbc99db2-5dee-4909-9026-c63ff18793eb" Publisher="CN=1210069" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="cbc99db2-5dee-4909-9026-c63ff18793eb" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>AcerST_Demo</DisplayName>
+    <PublisherDisplayName>1210069</PublisherDisplayName>
+    <Logo>Assets\icon\StoreLogo\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="AcerST_Demo.App">
+      <uap:VisualElements DisplayName="AcerST_Demo" Square150x150Logo="Assets\icon\Logo-TileLargeMedium\Square150x150Logo.png" Square44x44Logo="Assets\icon\Logo-AppList\Square44x44Logo.png" Description="AcerST_Demo" BackgroundColor="#83B81A">
+        <uap:DefaultTile Wide310x150Logo="Assets\icon\Logo-TileWilde\Wide310x150Logo.png" ShortName="Acer AI Demo" Square310x310Logo="Assets\icon\Logo-TileLargeMedium\Square310x310Logo.png" Square71x71Logo="Assets\icon\Logo-TileSmall\Square71x71Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\icon\SplashScreen\SplashScreen.png" BackgroundColor="#83B81A" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+</Package>
