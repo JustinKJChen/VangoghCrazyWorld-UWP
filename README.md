@@ -1,5 +1,5 @@
 ## Quick Start
-Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.3/VangoghCrazyWorld_UWP_20190311_3.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
+Download <a href="https://github.com/acerwebai/VangoghCrazyWorld-UWP/releases/download/v0.4/Source.zip">latest released build</a> to quick setup your environment for build UWP for Vangogh Crazy World.
 
 Once you have downloaded the sample, you can find the "Setup.exe" in folder. The "Setup.exe" provided an easy-way that help you preparing your system to meet the minimum system requirements.
 
@@ -11,7 +11,7 @@ You may meet some problem, but no worry! Just press the "Exclamation mark" and w
  
 
 ## Neural style transfer
-This UWP C# app uses the Neural style transfer model to re-style images or video streams. Offering you a variety of beautiful styles some of which are paintings by famous artists like Starry Night by Van Gogh. (Of course, you can train your own style model and import to this UWP sample from [here](https://github.com/AcerWilliamH/VangoghCrazyWorld)  
+This UWP C# app uses the Neural style transfer model to re-style images or video streams. Offering you a variety of beautiful styles some of which are paintings by famous artists like Starry Night by Van Gogh. (Of course, you can train your own style model and import to this UWP sample from [here](https://github.com/acerwebai/VangoghCrazyWorld)  
 
 For how-tos, tutorials and additional information, see the [Windows ML documentation](https://docs.microsoft.com/windows/ai/).
 
